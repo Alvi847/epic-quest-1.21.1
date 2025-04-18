@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "epicquest",
+	"version": "${version}",
+	"name": "Epic quest",
+	"description": "Adds a new cool sword with a full quest to obtain it",
+	"authors": [
+		"Alvi47"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/Alvi847/Epic-quest-mod.git"
+	},
+	"license": "MIT",
+	"icon": "assets/epicquest/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.alvi.epicquest.EpicQuest"
+		],
+		"fabric-datagen": [
+			"net.alvi.epicquest.EpicQuestDataGenerator"
+		],
+		"client": [
+			"net.alvi.epicquest.EpicQuestClient"
+		]
+	},
+	"mixins": [
+		"epicquest.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
