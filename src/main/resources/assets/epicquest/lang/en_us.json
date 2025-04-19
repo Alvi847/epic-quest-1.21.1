@@ -1,0 +1,11 @@
+{
+  "item.epicquest.red_pearl": "Red Pearl",
+  "tooltip.epicquest.red_pearl.line1": "A long lost red pearl",
+  "tooltip.epicquest.red_pearl.line2": "Forged in the depths of an ancient volcano",
+
+  "item.epicquest.gem_sword": "§lGem Sword§r",
+  "tooltip.epicquest.gem_sword.shift": "Press §eSHIFT§r to show more info",
+  "tooltip.epicquest.gem_sword.line1": "Destroy your enemies with this sacred sword",
+  "tooltip.epicquest.gem_sword.line2": "[Placeholder until abilty text]",
+  "itemgroup.epicquest.epicquest_items": "Epic Quest items"
+}

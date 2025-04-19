@@ -1,0 +1,12 @@
+{
+  "item.epicquest.red_pearl": "Perla Roja",
+  "tooltip.epicquest.red_pearl.line1": "Una perla roja perdida",
+  "tooltip.epicquest.red_pearl.line2": "Forjada en el corazón de un volcán",
+
+  "item.epicquest.gem_sword": "§lEspada de gemas§r",
+  "tooltip.epicquest.gem_sword.shift": "Pulsa §eSHIFT§r para mostrar más info",
+  "tooltip.epicquest.gem_sword.line1": "Destruye a tus enemigos con esta espada sagrada",
+  "tooltip.epicquest.gem_sword.line2": "[Placeholder until abilty text]",
+
+  "itemgroup.epicquest.epicquest_items": "Objetos de Epic Quest"
+}

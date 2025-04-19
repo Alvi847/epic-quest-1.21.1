@@ -1,5 +1,7 @@
 package net.alvi.epicquest;
 
+import net.alvi.epicquest.item.ModItemGroups;
+import net.alvi.epicquest.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -18,7 +20,8 @@ public class EpicQuest implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
-
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Loading Epic Quest mod");
+		ModItems.registerModItems();
+		ModItemGroups.registerItemGroups();
 	}
 }
